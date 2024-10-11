@@ -15,7 +15,7 @@ import org.springframework.web.servlet.handler.HandlerMappingIntrospector;
 
 /* 
    This class is made to create the filter chain bean,
-   which would be registered by the WebInitizalizer class
+   which would be registered by the WebSecurityInitializer class
 */
 
 /*
