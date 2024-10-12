@@ -12,7 +12,7 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 
 public class WebSecurityInitializer extends AbstractSecurityWebApplicationInitializer {
 
-	// Need to pass the configuration class to the super class (This is not needed in Spring version < 6.1)
+	// Need to pass the configuration class to the super class (This is not needed in Spring version < 6)
 	public WebSecurityInitializer() {
 		super(MySecurityConfig.class);
 	}
