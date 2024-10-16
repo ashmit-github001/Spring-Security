@@ -147,7 +147,7 @@ public class MySecurityConfig {
 		
 		
 		
-		/* To use "requestMatchers()" without creating the bean "" :
+		/* To use "requestMatchers()" without creating "mvcHandlerMappingIntrospector" bean :
 		 
 		   We will need to use AntPathRequestMatcher.antMatcher(String path), so
 		   we can : import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
