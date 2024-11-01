@@ -52,10 +52,10 @@ public class SecurityConfig {
 			customizer
 			.requestMatchers(antMatcher("/register")).permitAll()
 			
-			.anyRequest().authenticated()
-			
 			// To permit access to the jsp files [in case used]
-			.requestMatchers(antMatcher("/WEB-INF/views/**")).permitAll();
+			.requestMatchers(antMatcher("/WEB-INF/views/**")).permitAll()
+			
+			.anyRequest().authenticated();
 			
 		})
 		.formLogin(Customizer.withDefaults())
